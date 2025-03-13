@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="240"
+  height="360"
+  viewBox="0 0 240 360"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M 60,0 L 120,0 L 120,120 L 60,120 A 60,60 0 0,1 60,0 Z"
+    fill="#F24E1E"
+  />
+  <path
+    d="M 180,0 L 120,0 L 120,120 L 180,120 A 60,60 0 0,0 180,0 Z"
+    fill="#FF7262"
+  />
+  <path
+    d="M 60,120 L 120,120 L 120,240 L 60,240 A 60,60 0 0,1 60,120 Z"
+    fill="#A259FF"
+  />
+  <circle 
+    cx="180"
+    cy="180"
+    r="60" 
+    fill="#1ABCFE" />
+  <path
+    d="M 60,240 L 120,240 L 120,300 A 60,60 0 0,1 0,300 A 60,60 0 0,1 60,240 Z"
+    fill="#0ACF83"
+  />
+</svg>
+
