@@ -8,6 +8,6 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()]
   },
-  site: 'https://tu-usuario.github.io',
-  base: '/nombre-del-repositorio',
+  site: 'https://gabyfidelibus.github.io',
+  base: '/Portfolio',
 });
