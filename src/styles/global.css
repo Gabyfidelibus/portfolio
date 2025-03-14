@@ -1,80 +1,84 @@
-@import "tailwindcss";
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
-.skill-card {
-    @apply bg-white rounded-lg shadow-md p-6 flex flex-col items-center justify-center transition duration-300 hover:shadow-lg hover:transform hover:-translate-y-1;
-}
+@layer components {
+    .skill-card {
+        @apply bg-white rounded-lg shadow-md p-6 flex flex-col items-center justify-center transition duration-300 hover:shadow-lg hover:transform hover:-translate-y-1;
+    }
 
-.skill-card i {
-    @apply text-4xl mb-3;
-}
+    .skill-card i {
+        @apply text-4xl mb-3;
+    }
 
-.skill-card img {
-    @apply w-12 h-12 mb-3;
-}
+    .skill-card img {
+        @apply w-12 h-12 mb-3;
+    }
 
-.skill-card span {
-    @apply text-gray-700 font-medium;
-}
+    .skill-card span {
+        @apply text-gray-700 font-medium;
+    }
 
-.project-card {
-    @apply bg-white rounded-lg shadow-md overflow-hidden transition duration-300 hover:shadow-lg;
-}
+    .project-card {
+        @apply bg-white rounded-lg shadow-md overflow-hidden transition duration-300 hover:shadow-lg;
+    }
 
-.project-title {
-    @apply text-xl font-bold text-gray-800 p-4;
-}
+    .project-title {
+        @apply text-xl font-bold text-gray-800 p-4;
+    }
 
-.project-carousel {
-    @apply relative h-64 overflow-hidden;
-}
+    .project-carousel {
+        @apply relative h-64 overflow-hidden;
+    }
 
-.carousel-container {
-    @apply flex h-full transition-transform duration-500 ease-in-out;
-}
+    .carousel-container {
+        @apply flex h-full transition-transform duration-500 ease-in-out;
+    }
 
-.carousel-slide {
-    @apply w-full h-full flex-shrink-0;
-}
+    .carousel-slide {
+        @apply w-full h-full flex-shrink-0;
+    }
 
-.carousel-slide img {
-    @apply w-full h-full object-contain;
-}
+    .carousel-slide img {
+        @apply w-full h-full object-contain;
+    }
 
-.carousel-btn {
-    @apply absolute top-1/2 -translate-y-1/2 bg-gray-800 text-white w-8 h-8 flex items-center justify-center rounded-full cursor-pointer;
-    background-color: rgba(0, 0, 0, 0.5);
-}
+    .carousel-btn {
+        @apply absolute top-1/2 -translate-y-1/2 bg-gray-800 text-white w-8 h-8 flex items-center justify-center rounded-full cursor-pointer;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
 
-.carousel-btn:hover {
-    background-color: rgba(0, 0, 0, 0.7);
-}
+    .carousel-btn:hover {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
 
-.carousel-btn.prev {
-    @apply left-2;
-}
+    .carousel-btn.prev {
+        @apply left-2;
+    }
 
-.carousel-btn.next {
-    @apply right-2;
-}
+    .carousel-btn.next {
+        @apply right-2;
+    }
 
-.project-info {
-    @apply p-4;
-}
+    .project-info {
+        @apply p-4;
+    }
 
-.project-info p {
-    @apply text-gray-600 mb-4;
-}
+    .project-info p {
+        @apply text-gray-600 mb-4;
+    }
 
-.project-tools {
-    @apply flex flex-wrap gap-2 mb-4;
-}
+    .project-tools {
+        @apply flex flex-wrap gap-2 mb-4;
+    }
 
-.project-tools span {
-    @apply bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm;
-}
+    .project-tools span {
+        @apply bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm;
+    }
 
-.project-link {
-    @apply inline-block bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 transition duration-300;
+    .project-link {
+        @apply inline-block bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 transition duration-300;
+    }
 }
 
 /* Animation for skill cards */
