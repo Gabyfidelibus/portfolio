@@ -21,8 +21,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const resumeBtn = document.getElementById('resume-btn');
     if (resumeBtn) {
         resumeBtn.addEventListener('click', function() {
-            // You can replace this with an actual path to your resume
-            const resumeUrl = 'src/assets/CV Gabriel Web DEV.pdf';
+            // Updated path to the resume
+            const resumeUrl = '/CV Gabriel Web DEV.pdf';
             
             // Create a temporary anchor to trigger the download
             const downloadLink = document.createElement('a');
